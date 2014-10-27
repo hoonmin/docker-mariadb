@@ -1,0 +1,3 @@
+CREATE DATABASE maria;
+CREATE USER 'maria'@'%' IDENTIFIED BY 'maria';
+GRANT ALL PRIVILEGES ON maria.* TO 'maria'@'%' WITH GRANT OPTION;
